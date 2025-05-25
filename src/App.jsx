@@ -1,7 +1,38 @@
+import HomePage from "./pages/homePage/HomePage";
+import SinglePage from "./pages/singlePage/SinglePage";
+import Layout from "./pages/layout/Layout";
+import ListPage from "./pages/listPage/ListPage";
+import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import Login from "./pages/login/Login";
+import ProfilePage from "./pages/profilePage/ProfilePage";
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Layout />,
+    children: [
+      {
+        path: "/",
+        element: <HomePage />,
+      },
+      {
+        path: "/list",
+        element: <ListPage />,
+      },
+      {
+        path: "/profile",
+        element: <ProfilePage />,
+      },
+      {
+        path: "/:id",
+        element: <SinglePage />,
+      },
+    ],
+  },
+]);
+
 function App() {
-  return (
-    <div>Hello World</div>
-  )
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
