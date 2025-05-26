@@ -62,50 +62,32 @@ function Chat() {
           </div>
           <div className="center">
             <div className="chatMessage">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
             <div className="chatMessage own">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
             <div className="chatMessage">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
             <div className="chatMessage own">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
             <div className="chatMessage">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
             <div className="chatMessage own">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga,
-                quam.
-              </p>
+              <p>Lorem ipsum dolor sit amet</p>
               <span>2 minutes ago</span>
             </div>
           </div>
           <div className="bottom">
-            <textarea name="" id=""></textarea>
+            <textarea placeholder="Type message..."></textarea>
             <button>Send</button>
           </div>
         </div>
